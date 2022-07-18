@@ -1,6 +1,13 @@
 import React from 'react'
-import '../../styles/footer2/footer2.scss';
+ 
+ export function Footer2() {
+   return (
+     <div>
+       <div className="footer">El arte de Chicago 2022 <br />
 
-<div className="footer">
-<p>Copyright Coffee 2022.</p>
-</div>
+       </div>
+     </div>
+   )
+ }
+
+

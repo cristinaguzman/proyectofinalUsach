@@ -1,7 +1,7 @@
  import './styles/App.scss';
 
  
-import {Header,Content,Footer} from './components/';
+import {Header,Content,Footer,Fotos,Footer2,} from './components/';
 
 function App() {
   return (
@@ -9,10 +9,14 @@ function App() {
       <Header/>
       <Content/>
       <Footer/>
-      <footer2/>
+      <Fotos/>
+      <Footer2/>
+      
     </div>
     
   );
 }
 
 export default App;
+
+

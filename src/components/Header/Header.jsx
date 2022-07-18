@@ -24,7 +24,7 @@ export function Header() {
       </Nav>
       <Nav className="d-flex  w-lg-50 w-100  gap-5 justify-content-md-center justify-content-lg-end  align-items-center">
       {/* <a href='/'className='nav-c__btn'>Login</a> */}
-      {/* <a href='/'><img src={shop} alt="shop"  /></a> */}
+      <a href='/'><img src={shop} alt="shop"  /></a>
      </Nav>
     </Navbar.Collapse>
   </Container>
