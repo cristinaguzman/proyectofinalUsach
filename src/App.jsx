@@ -1,7 +1,7 @@
  import './styles/App.scss';
 
  
-import {Header,Content,Footer,Fotos,Footer2,} from './components/';
+import {Header,Content,Footer,Fotos,Footer2} from './components/';
 
 function App() {
   return (

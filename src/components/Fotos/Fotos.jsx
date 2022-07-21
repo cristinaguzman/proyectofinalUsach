@@ -43,16 +43,18 @@ export function Fotos() {
       }, []);
       
 return (
-  <div >
+  <section className='row container mx-auto mt-4 mb-5 g-3'>
   
   {Array.isArray(dataa)
         ? dataa.map(data => (
-            <div key={data.id}>
-              <h5>Título de la obra: {data.title} </h5>
-             <img width="20%" alt='a' src={`https://www.artic.edu/iiif/2/`+data.image_id+`/full/843,/0/default.jpg`}/>
-            </div>
+            <article className='col-12 col-md-6 col-xl-4 col-xxl-3' key={data.id}>
+              <div className='card w-100 h-100 shadow-sm'>
+              <img alt={data.title} src={`https://www.artic.edu/iiif/2/`+data.image_id+`/full/843,/0/default.jpg`}/>
+              <h5 className='p-3'>Título de la obra: {data.title} </h5>
+             </div>
+            </article>
           ))
         : null}
-  </div>
+  </section>
 )
 }
