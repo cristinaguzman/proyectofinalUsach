@@ -11,7 +11,6 @@ function App() {
       <Footer/>
       <Fotos/>
       <Footer2/>
-      
     </div>
     
   );
