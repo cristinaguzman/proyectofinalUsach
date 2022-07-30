@@ -11,7 +11,7 @@ export function Content() {
  
       <img
    
-      src="https://i.postimg.cc/rwRFKj4n/banner.png"
+      src="https://i.postimg.cc/2y96C7dq/banner1.png"
    
       alt="First slide"
     />
@@ -23,7 +23,7 @@ export function Content() {
   <Carousel.Item interval={2000}>
     <img
     
-      src="https://i.postimg.cc/rwRFKj4n/banner.png"
+      src="https://i.postimg.cc/3xbP9DL8/banner2.png"
       alt="Second slide"
     />
 
@@ -35,7 +35,7 @@ export function Content() {
   <Carousel.Item interval={2000}>
     <img
      
-      src="https://i.postimg.cc/rwRFKj4n/banner.png"
+      src="https://i.postimg.cc/VL7stgC5/banner3.png"
       alt="Third slide"
     />
 

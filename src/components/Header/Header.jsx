@@ -30,9 +30,5 @@ export function Header() {
   </Container>
 </Navbar>
  
- 
- 
- 
- 
   )
 }
